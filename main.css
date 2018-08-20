@@ -59,9 +59,7 @@ button.ghost:hover {
 }
 
 button.main:hover {
-  background-color: #a8ff78;
-  background: -webkit-linear-gradient(to top, #a8ff78, #78ffd6);
-  background: linear-gradient(to top, #a8ff78, #78ffd6);
+  background-color: #5fe6bd;
 }
 
 form {
@@ -76,8 +74,9 @@ form {
 }
 
 input {
-  background-color: #eee;
-  border: none;
+  border: .5px solid #eee;
+  background: white;
+  border-radius: 25px;
   padding: 12px 15px;
   margin: 8px 0;
   width: 100%;
