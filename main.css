@@ -52,7 +52,13 @@ button.ghost {
   border-color: #ffffff;
 }
 
-button:hover {
+button.ghost:hover {
+  background-color: white;
+  border-color: #ffffff;
+  color: #78ffd6;
+}
+
+button.main:hover {
   background-color: #a8ff78;
   background: -webkit-linear-gradient(to top, #a8ff78, #78ffd6);
   background: linear-gradient(to top, #a8ff78, #78ffd6);
